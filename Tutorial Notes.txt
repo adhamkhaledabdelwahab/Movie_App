@@ -1,0 +1,15 @@
+https://api.themoviedb.org/3/movie/550?api_key=f4ead36004a979fb7933852b88a8499a
+
+https://api.themoviedb.org/3/search/movie?api_key={api_key}&query=Jack+Reacher
+
+Query For Details:_
+    https://api.themoviedb.org/3/movie/343611?api_key={api_key}
+
+Get Image
+    https://image.tmdb.org/t/p/w500/kqjL17yufvn9OVLyXYpvtyrFfak.jpg
+
+Get popular movies
+    https://api.themoviedb.org/3/movie/popular?api_key=f4ead36004a979fb7933852b88a8499a&page=1    
+
+Get image
+    https://image.tmdb.org/t/p/original/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg
