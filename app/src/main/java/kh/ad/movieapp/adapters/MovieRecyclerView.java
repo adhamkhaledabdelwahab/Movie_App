@@ -1,5 +1,6 @@
 package kh.ad.movieapp.adapters;
 
+import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -81,6 +82,7 @@ public class MovieRecyclerView extends RecyclerView.Adapter<MovieRecyclerView.Ho
         return 0;
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     public void setmMovies(List<MovieModel> movieModels) {
         this.mMovies = movieModels;
         this.notifyDataSetChanged();
